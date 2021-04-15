@@ -1,0 +1,52 @@
+/* Skills */
+#skills {
+  background-color: var(--color-yellow);
+}
+
+.skillset {
+  display: flex;
+  background-color: var(--color-light-grey);
+  color: var(--color-light-white);
+  margin: 20px 0;
+}
+
+.skillset__title {
+  color: var(--color-light-white);
+}
+
+/* Skillset Left*/
+.skillset__left {
+  flex-basis: 60%;
+  background-color: var(--color-dark-grey);
+  padding: 20px 40px;
+}
+
+.skillset__description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill {
+  padding: 16px;
+}
+
+.skills__bar {
+  height: 3px;
+  width: 100%;
+  background-color: var(--color-grey);
+}
+
+.skills__value {
+  height: 3px;
+  background-color: var(--color-light-grey);
+}
+/* Skillset Right */
+
+.skillset__right {
+  flex-basis: 40%;
+}
+
+.tools,
+.etc {
+  padding: 20px;
+}

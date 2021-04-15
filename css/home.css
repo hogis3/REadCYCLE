@@ -1,0 +1,37 @@
+/* Home */
+.home {
+  background: url("file:///Users/hogis3/Desktop/Hobbies/Coding/cover.png")
+    center/cover no-repeat;
+  padding: 40px;
+  padding-top: 120px;
+  text-align: center;
+}
+
+.home__transparant {
+  opacity: 0.5;
+  transition: all --animation-duration ease-in-out;
+}
+
+.home__avatar {
+  height: 120px;
+  width: 120px;
+}
+
+.home__title,
+.home__description {
+  color: var(--color-white);
+}
+
+.home__contact {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+  color: var(--color-white);
+  margin: 24px;
+  padding: 8px 12px;
+  border: 2px solid var(--color-white);
+  border-radius: var(--border-radius);
+}
+
+.home__contact:hover {
+  background-color: var(--color-pink);
+}
