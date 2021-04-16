@@ -1,6 +1,7 @@
 /* @import "reset.css"; */
 @import "variable.css";
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600&display=swap');
+
 
 /* Contents */
 @import "navbar.css";
@@ -17,13 +18,14 @@
   --color-white: #ffffff;
   --color-light-white: #eeeeee;
   --color-dark-white: #bdbdbd;
-  --color-pink: #fe918d;
-  --color-dark-pink: #ff6863;
+  --color-pink: #F5D2D2;
+  --color-dark-pink: #f7aeae;
   --color-dark-grey: #4d4d4d;
   --color-grey: #616161;
   --color-light-grey: #7c7979;
   --color-blue: #73aace;
-  --color-yellow: #fff7d1;
+  --color-yellow: #FFF1C1;
+  --color-green: #B2E4B8;
   --color-orange: #feb546;
   --color-black: #000000;
 
@@ -35,8 +37,8 @@
   --font-micro: 14px;
 
   /* Font weight */
-  --weight-bold: 700;
-  --weight-semi-bold: 600;
+  --weight-bold: 600;
+  --weight-semi-bold: 500;
   --weight-regular: 400;
 
   /* Size */
@@ -48,11 +50,12 @@
 /* Universal tags */
 * {
   box-sizing: border-box;
+
 }
 
 body {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Alegreya', serif;
   cursor: default;
 }
 
@@ -226,3 +229,4 @@ button {
     right: 16px;
     bottom: 16px;
   }
+
