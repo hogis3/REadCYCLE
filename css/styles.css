@@ -18,8 +18,8 @@
   --color-white: #ffffff;
   --color-light-white: #eeeeee;
   --color-dark-white: #bdbdbd;
-  --color-pink: #F5D2D2;
-  --color-dark-pink: #f7aeae;
+  --color-pink: #ffbdbd;
+  --color-dark-pink: #f1a1a1;
   --color-dark-grey: #4d4d4d;
   --color-grey: #616161;
   --color-light-grey: #7c7979;
@@ -31,7 +31,7 @@
 
   /* Font size */
   --font-large: 48px;
-  --font-medium: 28px;
+  --font-medium: 23px;
   --font-regular: 18px;
   --font-small: 16px;
   --font-micro: 14px;
@@ -154,7 +154,7 @@ button {
 
   .navbar__toggle-btn {
     display: block;
-    top: 16px;
+    top: 21px;
     right: 16px;
     font-size: var(--font-medium);
   }
@@ -162,7 +162,7 @@ button {
     flex-direction: column;
     align-items: flex-start;
     background-color: var(--color-pink);
-    padding-top: 15px;
+    padding-top: 20px;
     padding-bottom: 20px;
   }
   .nav__menu {
@@ -170,15 +170,30 @@ button {
     width: 100vw;
     text-align: center;
     display: none;
+    padding-right: -20px;
+    margin-bottom: -5px;
   }
 
   .nav__menu.open {
     display: block;
   }
+  .nav__menu__items {
+    width: 90%;
+  }
 
   .section {
     padding: 16px;
-    padding-top: 50px;
+    padding-top: 40px;
+  }
+
+  .home__avatar {
+    height: 130px;
+     width: 130px;
+     margin-top: 50px;
+  }
+
+  .home__contact {
+    font-size: var(--font-small);
   }
 
   .about__majors {

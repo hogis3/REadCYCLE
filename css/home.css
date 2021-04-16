@@ -13,25 +13,34 @@
 }
 
 .home__avatar {
-  height: 120px;
-  width: 120px;
+  margin-top: 30px;
+  height: 170px;
+  width: 170px;
 }
 
-.home__title,
-.home__description {
+.home__title {
   color: var(--color-white);
+  text-shadow: 1px 2px 4px rgba(175, 175, 175, 0.5);
 }
 
 .home__contact {
-  font-size: var(--font-regular);
+  font-size: var(--font-small);
   font-weight: var(--weight-bold);
   color: var(--color-white);
   margin: 24px;
   padding: 8px 12px;
-  border: 2px solid var(--color-white);
+  border: 3px solid var(--color-white);
   border-radius: var(--border-radius);
+  text-shadow: 1px 1px 2px rgba(231, 231, 231, 0.5);
 }
 
 .home__contact:hover {
-  background-color: var(--color-pink);
+  background-image: linear-gradient(
+    to bottom,
+    #ffbdbd,
+    #ffc0c0,
+    #ffc2c2,
+    #fec5c5,
+    #fec7c7
+  );
 }

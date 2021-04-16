@@ -112,6 +112,9 @@ function selectNavItem (selected) {
     selectedNavItem.classList.remove ('active');
     selectedNavItem = selected;
     selectedNavItem.classList.add ('active');
+    if (window.scrollY < navbarHeight + 10) {
+        selectedNavItem.classList.remove ('active');
+    }
 }
 
 function scrollIntoView (selector) {
