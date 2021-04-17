@@ -100,7 +100,7 @@ workBtnContainer.addEventListener ('click', (e)=> {
 // Change section when scroll down
 
 const sectionIds = [
-    '.home', '#about', '#skills', '#work', '#testimonial', '#contact'
+    '.home', '#about', '#contributions', '#work', '#testimonial', '#contact'
 ]
 
 const sections = sectionIds.map (id => document.querySelector (id));
