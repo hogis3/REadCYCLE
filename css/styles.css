@@ -7,7 +7,7 @@
 @import "navbar.css";
 @import "home.css";
 @import "about.css";
-@import "skills.css";
+@import "contributions.css";
 @import "work.css";
 @import "testimonial.css";
 @import "contact.css";
@@ -24,9 +24,9 @@
   --color-grey: #616161;
   --color-light-grey: #7c7979;
   --color-blue: #73aace;
-  --color-yellow: #FFF1C1;
+  --color-yellow: #fff7dc;
   --color-green: #B2E4B8;
-  --color-orange: #feb546;
+  --color-orange: #f5f3f1;
   --color-black: #000000;
 
   /* Font size */
@@ -72,7 +72,7 @@ ul {
 /* Typography */
 h1 {
   font-size: var(--font-large);
-  font-weight: var(--weight-bold);
+  font-weight: var(--weight-semi-bold);
   color: var(--color-black);
   margin: 16px 0;
 }
