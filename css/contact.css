@@ -16,6 +16,10 @@
   color: var(--color-white);
 }
 
+.contact__email {
+  font-size: var(--font-medium);
+  text-decoration: underline;
+}
 .contact__links {
   font-size: var(--font-large);
   margin: 24px 0;
