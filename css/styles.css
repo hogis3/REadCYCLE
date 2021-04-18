@@ -254,5 +254,6 @@ button {
     font-size: 30px;
     right: 16px;
     bottom: 16px;
+    border-radius: 50%;
   }
 
