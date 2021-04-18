@@ -1,6 +1,13 @@
 /* Contact */
 #contact {
-  background-color: var(--color-pink);
+  background-image: linear-gradient(
+    to bottom,
+    #b1e3b6,
+    #b5e7ba,
+    #b8ecbe,
+    #bcf0c2,
+    #c0f5c6
+  );
 }
 
 .contact__title,

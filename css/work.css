@@ -1,40 +1,68 @@
 /* My work */
 .work__categories {
-  margin: 20px 0;
+  margin: 45px 0 35px 0;
   justify-content: center;
   box-sizing: border-box;
 }
 .category__btn {
-  border: 1px solid var(--color-dark-white);
+  border: 2px solid var(--color-dark-white);
   border-radius: var(--border-radius);
-  font-size: var(--font-regular);
-  padding: 28px 48px;
+  font-size: 20px;
+  padding: 15px 48px;
   margin: 5px 5px;
   position: relative;
+  font-family: "Alegreya", serif;
+  font-weight: var(--weight-bold);
+  box-shadow: 2px 2px 0px rgb(117, 117, 117);
 }
 
-.category__btn.selected,
-.category__btn:hover {
+.category__btn:first-child.selected,
+.category__btn:first-child:hover {
+  color: white;
+  background-image: linear-gradient(
+    to bottom,
+    #ffbdbd,
+    #ffccbe,
+    #ffdcc6,
+    #fdebd3,
+    #fdf8e5
+  );
+}
+
+.category__btn:nth-child(2).selected,
+.category__btn:nth-child(2):hover {
   color: white;
   background-color: var(--color-pink);
+}
+.category__btn:nth-child(3).selected,
+.category__btn:nth-child(3):hover {
+  color: white;
+  background-color: var(--color-green);
+}
+
+.category__btn:nth-child(4).selected,
+.category__btn:nth-child(4):hover {
+  color: white;
+  background-color: rgb(248, 224, 150);
 }
 
 .category__btn.selected .category__count,
 .category__btn:hover .category__count {
   opacity: 1;
-  top: 7px;
+  top: 16px;
 }
 
 .category__count {
-  background-color: var(--color-orange);
-  color: var(--color-white);
+  background-color: white;
+  color: var(--color-light-grey);
+  box-shadow: 1px 1px 1px rgb(173, 173, 173);
   border-radius: 50%;
   display: inline-block;
   width: 24px;
   height: 24px;
   line-height: 24px;
   position: absolute;
-  top: -20px;
+  top: 10px;
   right: 16px;
   opacity: 0;
   transition: all var(--animation-duration) ease-in;

@@ -26,7 +26,7 @@
   --color-yellow: #fdf8e5;
   --color-light-yellow: #fffde3;
   --color-green: #B2E4B8;
-  --color-orange: #f5f3f1;
+  --color-orange: #f8c28c;
   --color-black: #000000;
 
   /* Font size */
@@ -211,6 +211,15 @@ button {
     padding: 10px;
     width: 50vw;
   }
+
+  .work__categories {
+    margin-top: 5px;
+  }
+  .category__btn.selected .category__count,
+.category__btn:hover .category__count {
+  opacity: 0;
+}
+
   .contribution {
     margin-top: 0px;
   }
