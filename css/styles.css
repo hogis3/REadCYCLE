@@ -255,5 +255,6 @@ button {
     right: 16px;
     bottom: 16px;
     border-radius: 50%;
+    opacity: 0;
   }
 
