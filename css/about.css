@@ -22,6 +22,9 @@
   margin: 60px 80px 30px 80px;
 }
 
+.major {
+  margin: 20px;
+}
 .major__icon {
   width: 170px;
   height: 170px;
@@ -40,7 +43,7 @@
   transition: all var(--animation-duration) ease;
 }
 .major__icon:hover i {
-  transform: scale(1.2);
+  transform: scale(1.15);
 }
 .major__title {
   color: var(--color-dark-grey);

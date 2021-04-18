@@ -6,7 +6,8 @@
 
 .contribution {
   margin-top: -40px;
-  margin-bottom: -15px;
+  margin-bottom: -25px;
+  width: 30%;
 }
 
 .contributions__description {
@@ -17,6 +18,17 @@
   border: none;
   margin-top: 20px;
   margin-bottom: -30px;
+  text-shadow: 1px 1px 0px #d5d5d5;
+}
+
+.contribution__title {
+  background-color: var(--color-pink);
+  padding: 5px 0;
+  color: white;
+}
+
+.contribution__title {
+  background-color: var(--color-green);
 }
 
 .contributions__text {
@@ -25,7 +37,15 @@
   font-family: "Fjalla One", sans-serif;
 }
 
+.contributions__main:hover .contributions__text {
+  text-shadow: 2px 2px 0px #d5d5d5, 4px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.contributions__main:hover + .major__title {
+  text-decoration: underline;
+}
+
 .contribution h2 {
-  font-size: 21px;
-  font-weight: var(--weight-regular);
+  font-size: 25px;
+  font-weight: var(--weight-semi-bold);
 }

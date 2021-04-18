@@ -33,8 +33,8 @@
   --font-large: 48px;
   --font-medium: 23px;
   --font-regular: 19px;
-  --font-small: 16px;
-  --font-micro: 14px;
+  --font-small: 17px;
+  --font-micro: 15px;
 
   /* Font weight */
   --weight-bold: 600;
@@ -192,7 +192,6 @@ button {
     height: 130px;
      width: 130px;
      margin-top: 50px;
-
   }
 
   .home__contact {
@@ -215,6 +214,17 @@ button {
   .contribution {
     margin-top: 0px;
   }
+  .contribution {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+  }
+
+  .contribution:first-child {
+    margin-top: -40px;
+
+  }
+
   .contributions__main {
     margin-bottom: -20px;
   }
