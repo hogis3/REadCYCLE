@@ -252,4 +252,9 @@ button {
     right: 16px;
     bottom: 16px;
   }
+
+  .arrow-up.visible {
+    opacity: 0;
+    pointer-events: auto;
+  }
 }
