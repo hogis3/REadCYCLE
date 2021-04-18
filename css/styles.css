@@ -1,7 +1,6 @@
 /* @import "reset.css"; */
 @import "variable.css";
-@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600&family=Fjalla+One&display=swap');
 
 /* Contents */
 @import "navbar.css";
@@ -24,7 +23,8 @@
   --color-grey: #616161;
   --color-light-grey: #7c7979;
   --color-blue: #73aace;
-  --color-yellow: #fff7dc;
+  --color-yellow: #fdf8e5;
+  --color-light-yellow: #fffde3;
   --color-green: #B2E4B8;
   --color-orange: #f5f3f1;
   --color-black: #000000;
@@ -107,7 +107,7 @@ button {
 
 /* Section Common */
 .section {
-  padding: 50px;
+  padding: 80px 50px 80px 50px;
   text-align: center;
   margin: auto;
 }
@@ -185,12 +185,14 @@ button {
   .section {
     padding: 16px;
     padding-top: 40px;
+    padding-bottom: 50px;
   }
 
   .home__avatar {
     height: 130px;
      width: 130px;
      margin-top: 50px;
+
   }
 
   .home__contact {
@@ -210,9 +212,13 @@ button {
     padding: 10px;
     width: 50vw;
   }
-  .skillset {
-    flex-direction: column;
+  .contribution {
+    margin-top: 0px;
   }
+  .contributions__main {
+    margin-bottom: -20px;
+  }
+  
   .project {
     flex-grow: 1;
   }
