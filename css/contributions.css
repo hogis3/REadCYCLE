@@ -6,10 +6,16 @@
 
 .contribution {
   margin-top: -40px;
-  margin-bottom: 20px;
+  margin-bottom: -15px;
 }
+
+.contributions__description {
+  margin-top: 40px;
+}
+
 .contributions__main {
   border: none;
+  margin-top: 20px;
   margin-bottom: -30px;
 }
 
