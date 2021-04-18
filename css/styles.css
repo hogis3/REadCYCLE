@@ -1,6 +1,6 @@
 /* @import "reset.css"; */
 @import "variable.css";
-@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600&family=Fjalla+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600&family=Fjalla+One&display=swap");
 
 /* Contents */
 @import "navbar.css";
@@ -24,7 +24,7 @@
   --color-blue: #73aace;
   --color-yellow: #fdf8e5;
   --color-light-yellow: #fffde3;
-  --color-green: #B2E4B8;
+  --color-green: #b2e4b8;
   --color-orange: #f8c28c;
   --color-black: #000000;
 
@@ -49,12 +49,11 @@
 /* Universal tags */
 * {
   box-sizing: border-box;
-
 }
 
 body {
   margin: 0;
-  font-family: 'Alegreya', serif;
+  font-family: "Alegreya", serif;
   cursor: default;
 }
 
@@ -127,7 +126,6 @@ button {
   position: fixed;
   bottom: 50px;
   right: 50px;
-
 }
 .arrow-up {
   width: 70px;
@@ -196,8 +194,8 @@ button {
 
   .home__avatar {
     height: 130px;
-     width: 130px;
-     margin-top: 50px;
+    width: 130px;
+    margin-top: 50px;
   }
 
   .home__contact {
@@ -222,9 +220,9 @@ button {
     margin-top: 5px;
   }
   .category__btn.selected .category__count,
-.category__btn:hover .category__count {
-  opacity: 0;
-}
+  .category__btn:hover .category__count {
+    opacity: 0;
+  }
 
   .contribution {
     margin-top: 0px;
@@ -237,13 +235,12 @@ button {
 
   .contribution:first-child {
     margin-top: -40px;
-
   }
 
   .contributions__main {
     margin-bottom: -20px;
   }
-  
+
   .project {
     flex-grow: 1;
   }
@@ -254,7 +251,5 @@ button {
     font-size: 30px;
     right: 16px;
     bottom: 16px;
-    border-radius: 50%;
-    opacity: 0;
   }
-
+}
