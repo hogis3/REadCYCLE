@@ -245,16 +245,12 @@ button {
     flex-grow: 1;
   }
 
-  .arrow {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   .arrow-up {
     width: 50px;
     height: 50px;
     font-size: 30px;
     right: 16px;
     bottom: 16px;
+    display: none;
   }
 }

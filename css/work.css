@@ -88,7 +88,7 @@
   justify-content: center;
   align-items: center;
   margin: 2px;
-  background-color: var(--color-light-white);
+  background-color: #fffbf0;
   position: relative;
 }
 
@@ -118,7 +118,7 @@
 }
 
 .project:hover .project__description {
-  opacity: 0.7;
+  opacity: 0.6;
   transform: translateY(0);
 }
 
