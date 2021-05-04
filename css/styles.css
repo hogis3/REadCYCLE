@@ -203,7 +203,10 @@ button {
   }
 
   .about__majors {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 30px;
     margin-bottom: 0px;
   }
